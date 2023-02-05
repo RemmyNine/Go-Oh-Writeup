@@ -15,7 +15,7 @@ import (
 func main() {
 	// Define a list of URLs to scrape
 	urls := []string{
-		'https://medium.com/feed/tag/bug-bounty-writeup",
+		"https://medium.com/feed/tag/bug-bounty-writeup",
     "https://medium.com/feed/tag/xss-attack",
     "https://medium.com/feed/tag/xss-vulnerability",
     "https://medium.com/feed/tag/xss-bypass",
@@ -44,6 +44,7 @@ func main() {
     "https://medium.com/feed/tag/security",
     "https://medium.com/feed/tag/bug-bounty",
     "https://medium.com/feed/tag/bug-hunter",
+		"https://medium.com/feed/tag/golang
     "https://medium.com/feed/tag/info-sec-writeup",
     "https://medium.com/feed/tag/hackthebox-writeup",
     "https://medium.com/feed/tag/ethical-hacking",
