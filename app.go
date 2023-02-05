@@ -28,7 +28,7 @@ func main() {
 	fileString := string(fileContents)
 
 	// Discord webhook URL
-	webhookURL := "Paste your webhookURL here"
+	webhookURL := "your-webhook-URL"
 
 	for _, url := range urls {
 		// Load the URL
