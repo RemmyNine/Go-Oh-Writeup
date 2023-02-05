@@ -44,7 +44,7 @@ func main() {
     "https://medium.com/feed/tag/security",
     "https://medium.com/feed/tag/bug-bounty",
     "https://medium.com/feed/tag/bug-hunter",
-		"https://medium.com/feed/tag/golang
+		"https://medium.com/feed/tag/golang,
     "https://medium.com/feed/tag/info-sec-writeup",
     "https://medium.com/feed/tag/hackthebox-writeup",
     "https://medium.com/feed/tag/ethical-hacking",
