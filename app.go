@@ -15,7 +15,71 @@ import (
 func main() {
 	// Define a list of URLs to scrape
 	urls := []string{
-		"https://medium.com/feed/tag/ctf",
+		'https://medium.com/feed/tag/bug-bounty-writeup",
+    "https://medium.com/feed/tag/xss-attack",
+    "https://medium.com/feed/tag/xss-vulnerability",
+    "https://medium.com/feed/tag/xss-bypass",
+    "https://medium.com/feed/tag/xss-filter-bypass",
+    "https://medium.com/feed/tag/cross-site-scripting",
+    "https://medium.com/feed/tag/dom-xss",
+    "https://medium.com/feed/tag/blind-xss",
+    "https://medium.com/feed/tag/stored-xss",
+    "https://medium.com/feed/tag/owasp-top-10",
+    "https://medium.com/feed/tag/owasp",
+    "https://medium.com/feed/tag/sql-injection",
+    "https://medium.com/feed/tag/web-application-security",
+    "https://medium.com/feed/tag/injection",
+    "https://medium.com/feed/tag/bug-bounty-writeup",
+    "https://medium.com/feed/tag/vapt",
+    "https://medium.com/feed/tag/vulnerability-assessment",
+    "https://medium.com/feed/tag/cybersecurity",
+    "https://medium.com/feed/tag/application-security",
+    "https://medium.com/feed/tag/hacking",
+    "https://medium.com/feed/tag/infosec",
+    "https://medium.com/feed/tag/ctf",
+    "https://medium.com/feed/tag/penetration-testing",
+    "https://medium.com/feed/tag/writeup",
+    "https://medium.com/feed/tag/tryhackme",
+    "https://medium.com/feed/tag/vulnhub",
+    "https://medium.com/feed/tag/security",
+    "https://medium.com/feed/tag/bug-bounty",
+    "https://medium.com/feed/tag/bug-hunter",
+    "https://medium.com/feed/tag/info-sec-writeup",
+    "https://medium.com/feed/tag/hackthebox-writeup",
+    "https://medium.com/feed/tag/ethical-hacking",
+    "https://medium.com/feed/tag/api-security",
+    "https://medium.com/feed/tag/hackerone",
+    "https://medium.com/feed/tag/authentication",
+    "https://medium.com/feed/tag/vulnerability",
+    "https://medium.com/feed/tag/recon",
+    "https://surya-dev.medium.com/feed",
+    "https://infosecwriteups.com/feed",
+    "https://medium.com/feed/@securitylit",
+    "https://medium.com/feed/@tomnomnom",
+    "https://medium.com/feed/@cappriciosec",
+    "https://medium.com/feed/@302Found",
+    "https://medium.com/feed/@newp_th",
+    "https://medium.com/feed/@pdelteil",
+    "https://ruvlol.medium.com/feed",
+    "https://medium.com/@know.0nix/feed",
+    "https://medium.com/@bugh4nter/feed",
+    "https://seqrity.medium.com/feed",
+    "https://vickieli.medium.com/feed",
+    "https://medium.com/feed/intigriti",
+    "https://medium.com/@intideceukelaire/feed",
+    "https://medium.com/@projectdiscovery/feed",
+    "https://jonathandata1.medium.com/feed",
+    "https://medium.com/@Hacker0x01/feed",
+    "https://medium.com/feed/pentesternepal",
+    "https://0xjin.medium.com/feed",
+    "https://medium.com/@infosecwriteups/feed",
+    "https://medium.com/@jhaddix/feed",
+    "https://medium.com/@NahamSec/feed",
+    "https://orwaatyat.medium.com/feed",
+    "https://zseano.medium.com/feed",
+    "https://d0nut.medium.com/feed",
+    "https://medium.com/feed/towards-aws",
+    "https://medium.com/@stackzero/feed"
 	}
 
 	// Load the contents of the file, if it exists
@@ -28,7 +92,7 @@ func main() {
 	fileString := string(fileContents)
 
 	// Discord webhook URL
-	webhookURL := "your-webhook-URL"
+	webhookURL := "your-web-hook-URL"
 
 	for _, url := range urls {
 		// Load the URL
