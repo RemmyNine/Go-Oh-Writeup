@@ -80,7 +80,7 @@ func main() {
     "https://zseano.medium.com/feed",
     "https://d0nut.medium.com/feed",
     "https://medium.com/feed/towards-aws",
-    "https://medium.com/@stackzero/feed"
+    "https://medium.com/@stackzero/feed",
 	}
 
 	// Load the contents of the file, if it exists
